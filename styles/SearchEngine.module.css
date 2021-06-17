@@ -1,0 +1,72 @@
+.input {
+  position: absolute;
+  top: 128px;
+  left: 80px;
+  width: 480px;
+  height: 56px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  border: none;
+}
+
+/* for Opera,webkit chrome browsers */
+.input::-webkit-input-placeholder {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  width: 135px;
+  height: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #848484;
+}
+
+/*firefox 19+ versions*/
+.input::-moz-placeholder {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  width: 135px;
+  height: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #848484;
+}
+
+/*IE  versions*/
+.input::-ms-placeholder {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  width: 135px;
+  height: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #848484;
+}
+
+/*Latest modern browsers */
+
+.input::placeholder {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  width: 135px;
+  height: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #848484;
+}
